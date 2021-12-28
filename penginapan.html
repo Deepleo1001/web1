@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Penginapan</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- fontawesom -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- fontgoogle -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Road+Rage&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Patrick+Hand&family=Road+Rage&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="profil.css">
+
+</head>
+
+<body>
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #83c5be;">
+        <a class="navbar-brand" href="#" style="font-size: 50pt; font-family:Road Rage, cursive;">Aneka Sembalun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profil.html">Profil</a>
+                </li>
+                <li class="nav-item dropdown" style="transition: 1s;">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="transition: 1s;">
+                        Layanan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="transition: 1s;">
+                        <a class="dropdown-item" href="penginapan.html">Penginapan</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Kopi Sembalun</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Sewa Alat Pendakian</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Profil</a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    </div>
+    <!-- konten -->
+    <div calss="container">
+
+        <!-- Room pilihanPertama -->
+        <div class="row mt-5">
+            <!-- roomC1 -->
+            <div class="col-12 col-lg-3 " >
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room1_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar C1</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp50.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomC1">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal room C1 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomC1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar C1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room1.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- roomC2 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room2_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar A2</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp50.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomC2">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Room C2 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomC2">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar C2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room2.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- room3 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room3_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar A3</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp50.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomC3">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal roomC3 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomC3">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar C3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room3.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- roomC4 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room3_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar C4</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp50.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomC4">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal roomC4 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomC4">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar C4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room3.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- pilihan room ke2 -->
+    <!-- konten -->
+    <div calss="container">
+    
+        <!-- Room pilihanPertama -->
+        <div class="row mt-5">
+            <!-- roomB1 -->
+            <div class="col-12 col-lg-3 ">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room1_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar B1</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp100.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomB1" >Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal roomB1 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomB1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar B1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room1.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order" class="btn btn-secondary btn-lg active"
+                                role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- room2 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room2_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar B2</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp100.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomB2">Detail</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- modal roomB2 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomB2">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar B2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room2.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- room B3  -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room3_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar B3</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp100.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomB3">Detail</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- modal roomB3 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomB3">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar B3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room3.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- room C4 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room3_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar B4</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp100.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomB4">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Room C4-->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomB4">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar B4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room3.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- konten -->
+    <div calss="container">
+    
+        <!-- Room pilihanPertama -->
+        <div class="row mt-5">
+            <!-- room1 -->
+            <div class="col-12 col-lg-3 ">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room1_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar A1</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp150.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomA1">Detail</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal room A1 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomA1">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar A1</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room1.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- room2 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room2_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar A2</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp150.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomA2">Detail</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- modal room A2 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomA2">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar A2</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room2.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- room3 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room3_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar A3</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp150.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal_roomA3">Detail</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- modal roomA3 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomA3">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar A3</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room3.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- room4 -->
+            <div class="col-12 col-lg-3">
+                <div class="card" style="width:auto;">
+                    <img class="card-img-top" src="img/room3_crop.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Kamar A4</h5>
+                        <p class="card-text">
+                            <b>Harga : Rp150.000,00 /Malam</b><br>
+                            Dilengkapi dengan berbagai fasilitas yang anda perlukan.
+                        </p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" id="#modal_roomA4">Detail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal room A4 -->
+            <div class="modal" tabindex="-1" role="dialog" id="modal_roomA4">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Kamar A4</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/room3.jpg" alt="gambar" class="img-thumbnail">
+                            <b>Fasilitas</b>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <a href="https://api.whatsapp.com/send?phone=62859175387852?text=Saya Mau Order"
+                                class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"
+                                style="border-radius:15px; background-color:yellow; color:#669bbc; width:100px;">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="row">
+        <div class="col-12" style="font-size: 14pt; background-color:#669bbc" id="footer">
+            <h3 style="font-family: 'Anton', sans-serif; text-align:center;" class="mt-5">Hubungi Kami</h3>
+            <hr style="width:100px; background-color :white;">
+    
+            <p align="center" style="margin-top: 10px;">
+                <i class="fab fa-facebook"> Deep Leo</i>
+                <i class="fab fa-instagram"> @Deepleo</i>
+                <i class="fab fa-whatsapp"> 0859175387852</i>
+                <i class="fab fa-twitter"> Deepleo</i>
+            </p>
+            <p style="text-align: center; font-size:smaller;">&copy; By Dlproject2021</p>
+    
+        </div>
+    
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

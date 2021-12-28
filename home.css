@@ -1,0 +1,76 @@
+body{
+    background-color: #caffbf;
+    font-family:   Helvetica, sans-serif, p;
+}
+
+/* CSS slide */
+.carousel-item {
+    width: auto;
+    height: 450px;
+}
+
+/* CSS NAVAR */
+.nav-item :hover{
+    background-color: #aafc9a;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+
+
+
+
+/* CSS LAYANAN */
+.layanan_produk{
+    width: 100%;
+    height: 120px;
+}
+
+.layanan_produk h2{
+    line-height: 120px;
+}
+
+.layanan_produk :hover{
+    background-color: #aafc9a;
+    width: 100%;
+
+    transition: 0.3s;
+    border-radius: 20px;
+  
+}
+
+
+.layanan_penginapan{
+    width: 100%;
+    height: 120px;
+}
+.layanan_penginapan h2{
+    line-height: 120px;
+}
+.layanan_penginapan:hover{
+    background-color: #aafc9a;
+    width: 100%;
+
+    transition: 0.3s;
+    border-radius: 20px;
+ 
+}
+
+
+.layanan_alat{
+    width: 100%;
+    height: 120px;
+
+}
+.layanan_alat h2{
+    line-height: 120px;
+}
+.layanan_alat :hover{
+    background-color: #aafc9a;
+    width: 100%;
+
+    transition: 0.3s;
+    border-radius: 20px;
+
+}
+
